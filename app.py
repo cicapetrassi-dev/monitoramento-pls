@@ -113,7 +113,7 @@ try:
             color_discrete_map={
                 'Concluído': '#2ECC71', 
                 'Em andamento': '#FE8330', 
-                'Não iniciado': '#BDC3C7',
+                'Não iniciado': '#B5C7EB',
                 'Sem informação': '#E67E22'
             },
             hole=0.4
@@ -128,8 +128,8 @@ try:
             color=status_col,
             color_discrete_map={
                 'Concluído': '#2ECC71', 
-                'Em andamento': '#F1C40F', 
-                'Não iniciado': '#BDC3C7',
+                'Em andamento': '#FE8330', 
+                'Não iniciado': '#B5C7EB',
                 'Sem informação': '#E67E22'
             }
         )
@@ -147,8 +147,8 @@ try:
                 color=status_col,
                 color_discrete_map={
                     'Concluído': '#2ECC71', 
-                    'Em andamento': '#F1C40F', 
-                    'Não iniciado': '#BDC3C7',
+                    'Em andamento': '#FE8330', 
+                    'Não iniciado': '#B5C7EB',
                     'Sem informação': '#E67E22'
                 },
                 title="Ações por Responsável"
