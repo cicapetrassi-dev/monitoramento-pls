@@ -112,7 +112,7 @@ try:
             color=status_col,
             color_discrete_map={
                 'Concluído': '#2ECC71', 
-                'Em andamento': '#F1C40F', 
+                'Em andamento': '#FE8330', 
                 'Não iniciado': '#BDC3C7',
                 'Sem informação': '#E67E22'
             },
