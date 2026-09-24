@@ -111,10 +111,10 @@ try:
             names=status_col, 
             color=status_col,
             color_discrete_map={
-                'Concluído': '#2ECC71', 
-                'Em andamento': '#FE8330', 
-                'Não iniciado': '#B5C7EB',
-                'Sem informação': '#E67E22'
+                'Concluído': '#2E7D32', 
+                'Em andamento': '#1976D2', 
+                'Não iniciado': '#D32F2F',
+                'Sem informação': '#F57C00'
             },
             hole=0.4
         )
@@ -127,10 +127,10 @@ try:
             x='EIXO', 
             color=status_col,
             color_discrete_map={
-                'Concluído': '#2ECC71', 
-                'Em andamento': '#FE8330', 
-                'Não iniciado': '#B5C7EB',
-                'Sem informação': '#E67E22'
+                'Concluído': '#2E7D32', 
+                'Em andamento': '#1976D2', 
+                'Não iniciado': '#D32F2F',
+                'Sem informação': '#F57C00'
             }
         )
         st.plotly_chart(fig_bar, use_container_width=True)
@@ -146,10 +146,10 @@ try:
                 x='ENVOLVIDOS', 
                 color=status_col,
                 color_discrete_map={
-                    'Concluído': '#2ECC71', 
-                    'Em andamento': '#FE8330', 
-                    'Não iniciado': '#B5C7EB',
-                    'Sem informação': '#E67E22'
+                    'Concluído': '#2E7D32', 
+                    'Em andamento': '#1976D2', 
+                    'Não iniciado': '#D32F2F',
+                    'Sem informação': '#F57C00'
                 },
                 title="Ações por Responsável"
             )
