@@ -5,7 +5,7 @@ import plotly.express as px
 import os
 
 st.set_page_config(page_title="Dashboard PLS UFSC", layout="wide")
-st.title("🌱 Dashboard de Monitoramento do PLS UFSC (2025–2029) Ciclo 1")
+st.title("🌱 Dashboard de Monitoramento do PLS UFSC (2025–2029) ANO 1")
 
 csv_files = [f for f in os.listdir('.') if f.endswith('.csv')]
 
